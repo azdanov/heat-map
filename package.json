@@ -1,6 +1,6 @@
 {
   "name": "heatmap",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "D3.js Heatmap made for FreeCodeCamp",
   "main": "src/index.js",
   "repository": {

@@ -69,7 +69,7 @@ module.exports = {
       },
     ],
   },
-  devtool: ENV === 'production' ? 'source-map' : 'cheap-eval-source-map',
+  devtool: ENV === 'production' ? 'source-map' : 'eval-source-map',
   plugins,
   resolve: {
     extensions: ['*', '.js'],

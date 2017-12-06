@@ -1,0 +1,35 @@
+# Created by .ignore support plugin (hsz.mobi)
+$RECYCLE.BIN/
+*.cab
+*.iml
+*.lnk
+*.msi
+*.msm
+*.msp
+*.stackdump
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.idea
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+[Dd]esktop.ini
+dist/
+ehthumbs.db
+ehthumbs_vista.db
+gen
+Icon
+Network Trash Folder
+node_modules/
+out
+Temporary Items
+Thumbs.db

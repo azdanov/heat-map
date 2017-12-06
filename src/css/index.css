@@ -1,7 +1,52 @@
-circle {
-  fill: chocolate;
+body {
+  background: #eceff1 url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23cfd8dc' fill-opacity='0.11' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-align: center;
 }
 
-text {
-  fill: maroon;
+.chart {
+  background-color: #fafafa;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chart--title {
+  font-size: 32px;
+  text-anchor: middle;
+}
+
+.chart--description {
+  font-size: 15px;
+  text-anchor: middle;
+}
+
+.chart--temperatures,
+.chart--months {
+  font-size: 12px;
+}
+
+.tooltip {
+  background-color: #eceff1;
+  border-radius: 5px;
+  display: none;
+  min-width: 50px;
+  padding: 5px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+}
+
+.tooltip p {
+  margin: 0;
+  pointer-events: none;
+}
+
+.tooltip--date {
+  font-weight: bold;
+}
+
+.legend--block {
+  stroke: #212121;
 }

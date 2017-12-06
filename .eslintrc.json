@@ -25,5 +25,8 @@
         "allowForLoopAfterthoughts": true
       }
     ]
+  },
+  "globals": {
+    "d3": true
   }
 }
