@@ -49,7 +49,7 @@
     "start": "webpack-dev-server",
     "lint:js": "eslint --ext=js . --fix",
     "lint:css": "stylelint \"**/*.css\" --fix",
-    "prebuild": "run-s clean lint:**",
+    "prebuild": "run-p clean lint:**",
     "build": "cross-env NODE_ENV=production webpack -p",
     "build:dev": "webpack"
   }
