@@ -32,4 +32,4 @@ D3.js Heatmap made for FreeCodeCamp.
 
 ## License
 
-[Unlicense](https://unlicense.org)
+[MIT](https://opensource.org/licenses/MIT)
