@@ -33,3 +33,4 @@ node_modules/
 out
 Temporary Items
 Thumbs.db
+.vscode/

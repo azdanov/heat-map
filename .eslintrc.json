@@ -1,34 +1,10 @@
 {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "impliedStrict": true
-    }
-  },
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "env": {
     "es6": true,
     "browser": true
   },
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-          "singleQuote": false,
-          "trailingComma": "all",
-          "tabWidth": 4,
-          "printWidth": 120
-      }
-    ],
-    "no-plusplus": [
-      "error",
-      {
-        "allowForLoopAfterthoughts": true
-      }
-    ]
-  },
-  "globals": {
-    "d3": true
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
   }
 }
