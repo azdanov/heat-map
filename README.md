@@ -5,7 +5,7 @@ D3.js Heatmap made for FreeCodeCamp.
 
 ![Chart](https://res.cloudinary.com/anton-zdanov/image/upload/q_auto/v1513067763/Screen_Shot_2017-12-12_at_10.35.55_tdhsjw.png)
 
-[Live](https://azdanov.js.org/heat-map/)
+[Live](https://azdanov.github.io/heat-map/)
 
 ## Tools
 
