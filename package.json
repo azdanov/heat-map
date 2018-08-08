@@ -1,18 +1,18 @@
 {
-  "name": "heatmap",
+  "name": "heat-map",
   "version": "1.0.0",
-  "description": "D3.js Heatmap made for FreeCodeCamp",
+  "description": "D3.js Heat-map made for FreeCodeCamp",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azdanov/heatmap.git"
+    "url": "git+https://github.com/azdanov/heat-map.git"
   },
-  "author": "Anton Zdanov <akumael@gmail.com>",
+  "author": "Anton Zdanov <azdanov@pm.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azdanov/heatmap/issues"
+    "url": "https://github.com/azdanov/heat-map/issues"
   },
-  "homepage": "https://github.com/azdanov/heatmap#readme",
+  "homepage": "https://github.com/azdanov/heat-map#readme",
   "private": true,
   "scripts": {
     "gh-pages": "gh-pages -d dist",
