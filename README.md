@@ -1,6 +1,6 @@
-# Heat Map
+# Heat-map
 
-<p>D3.js heatmap for global surface temperature change. <a href="https://azdanov.github.io/heat-map/">Live</a></p>
+<p>D3.js heat-map for global surface temperature change. <a href="https://azdanov.github.io/heat-map/">Live</a></p>
 
 ![Chart](https://user-images.githubusercontent.com/6123841/43853585-3e888cd8-9b49-11e8-99df-cce8f60bc448.png)
 
